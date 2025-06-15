@@ -2,6 +2,8 @@
 
 a community-driven tier list site for hell divers 2 weapons, equipment, and stratagems. no login required - just browse rankings, compare items, and build loadouts.
 
+![Hell Divers 2 Tier List Demo](assets/hellDivers2_ver1.gif)
+
 ## what it does
 
 - **tier lists**: s-f rankings for weapons, armor, stratagems, etc.
@@ -45,13 +47,16 @@ npm run dev
 🚧 **in development** - basic project structure is set up, working on core tier list functionality
 
 ### what's working
-- project setup and structure
-- .env and notes/ properly gitignored
+- ✅ responsive tier list layout with S-F rankings
+- ✅ category switching (primary, secondary, grenades, armor, stratagems)
+- ✅ mock hell divers 2 data for all weapon types
+- ✅ basic typescript + vite setup
 
 ### what's next
-- backend api endpoints for items and tier lists
-- frontend components for tier list display
-- basic hell divers 2 item database
+- 🔧 improve styling and visual polish
+- 🔧 backend api endpoints for items and tier lists
+- 🔧 drag-and-drop tier editing
+- 🔧 loadout builder functionality
 
 ## contributing
 

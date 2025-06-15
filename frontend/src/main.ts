@@ -21,7 +21,7 @@ function createTierList(items: HellDiversItem[]): string {
         </div>
         <div class="items-grid flex flex-wrap gap-2 flex-1 min-h-[4rem]">
           ${tierItems.map(item => `
-            <div class="item-card bg-gray-800 hover:bg-gray-700 p-3 rounded-lg border border-gray-600 transition-colors cursor-pointer">
+            <div class="item-card bg-gray-800 hover:bg-gray-700 rounded-lg border border-gray-600 transition-colors cursor-pointer" style="padding: 16px 20px;">
               <div class="font-medium text-sm">${item.name}</div>
               <div class="text-xs text-gray-400 mt-1">${item.description || ''}</div>
             </div>
